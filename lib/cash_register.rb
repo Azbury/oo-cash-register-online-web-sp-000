@@ -21,4 +21,8 @@ class CashRegister
       "There is no discount to apply."
     end
   end
+
+  def items
+    self.cart
+  end
 end
