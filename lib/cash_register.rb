@@ -16,6 +16,7 @@ class CashRegister
       counter = 0
       while counter < quantity
         self.cart << title
+        counter += 1
       end
     end
   end
