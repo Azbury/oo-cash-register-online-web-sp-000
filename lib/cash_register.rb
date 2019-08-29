@@ -10,7 +10,7 @@ class CashRegister
   end
 
   def add_item (title, price, quantity = 1)
-    self.last_transaction = [title, price]
+    self.last_transaction = [title, price, quantity]
     self.total += price * quantity
     if quantity == 1
       self.cart << title
@@ -37,5 +37,6 @@ class CashRegister
   end
 
   def void_last_transaction
-
+    
+  end
 end
