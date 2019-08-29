@@ -14,7 +14,7 @@ class CashRegister
       self.cart << title
     else
       counter = 0
-      while coutner < quantity
+      while counter < quantity
         self.cart << title
       end
     end
